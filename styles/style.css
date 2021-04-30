@@ -11,7 +11,11 @@ body {
     --color2: hsla(135, 65%, 98%, 1);
     --color3: hsla(315, 37%, 86%, 1);
     --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
+    --color5: hsla(224, 40%, 79%, 1)
+    
+    The lab idea i was cooking up was: build a character creator! The character should have some attributes (happiness, strength, empathy, whatever). Those attributes are numbers, coming in from user input. The page should render differently based on the character stats. You should have functions that take in numbers and return image urls
+
+For example, a funtion called getHappinessImage would take in a number (say, 5) and return an image url that corresponds to that happiness level. So a frown for happiness below 4, a neutral face for 5-7, and a beaming smile for anything over 7; */
     
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
